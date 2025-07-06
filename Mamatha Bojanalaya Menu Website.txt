@@ -1,34 +1,231 @@
-Mamatha Bojanalaya Menu Website
-This project is a static HTML website that displays a colorful, categorized food menu for Mamatha Bojanalaya, an Indian dining establishment.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAMTA BHOJNALAYA MENU</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff9e6;">
 
-🍽️ Features
-Categorized menu items:
-Paneer Specials
-Rice Varieties
-Sabji Dishes
-Roti Options
-Other Items (like Papad, Dahi, Water Bottle)
-Clearly separated sections using color-coded blocks
-Price breakdowns for half and full portions where applicable
-Fully responsive and visually simple design using HTML and inline CSS
-🗂️ Technologies Used
-HTML5 for content structure
-Inline CSS for layout and styling
-💡 How to Use
-Download or clone the repository
-Open the mamatha bojanalaya.html file in any web browser
-Browse the categorized menu for pricing details
-📸 Preview
-(Insert a screenshot here if you want to include a preview of the website)
+    <!-- Main heading -->
+    <h1 style="text-align: center; color: #d35400; background-color: #ffd699; padding: 15px; border-radius: 10px; border: 3px solid #e67e22; margin-bottom: 30px;">
+        MAMTA BHOJNALAYA MENU
+    </h1>
 
-📌 Future Enhancements
-Add mobile responsiveness using CSS media queries
-Use external CSS for better maintainability
-Add interactive features using JavaScript (e.g. filtering menu items)
-Include images for each dish
-📄 License
-This project is for personal or educational use. Feel free to adapt it for your own restaurant or portfolio project.
+    <!-- Paneer Section -->
+    <div style="background-color: #fff892; border: 3px solid #ffcc00; border-radius: 10px; padding: 15px; margin-bottom: 25px;">
+        <h2 style="color: #b45f06; border-bottom: 2px solid #b45f06; padding-bottom: 8px; margin-top: 0;">PANEER</h2>
+        
+        <!-- Price header -->
+        <div style="display: flex; background-color: #f1c40f; color: white; border-radius: 5px; margin-bottom: 10px;">
+            <div style="flex: 2; padding: 8px; font-weight: bold; text-align: left; padding-left: 15px;">ITEM</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">HALF</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">FULL</div>
+        </div>
+        
+        
+        <div style="background-color: white; border-radius: 5px; overflow: hidden;">
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Matar Paneer</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">80</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">120</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Kaju Paneer</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">120</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">170</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Sahi Paneer</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">80</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">120</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Chola Paneer</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">80</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">120</div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Kaju Karl</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">100</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">150</div>
+            </div>
+        </div>
+    </div>
 
-✨ Thank you for checking out the Mamatha Bojanalaya Menu!
+    <!-- Rice Section -->
+    <div style="background-color: #d4e6f1; border: 3px solid #5dade2; border-radius: 10px; padding: 15px; margin-bottom: 25px;">
+        <h2 style="color: #2874a6; border-bottom: 2px solid #2874a6; padding-bottom: 8px; margin-top: 0;">RICE</h2>
+        
+        <!-- Price header -->
+        <div style="display: flex; background-color: #3498db; color: white; border-radius: 5px; margin-bottom: 10px;">
+            <div style="flex: 2; padding: 8px; font-weight: bold; text-align: left; padding-left: 15px;">ITEM</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">HALF</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">FULL</div>
+        </div>
+        
+        <!-- Rice Items -->
+        <div style="background-color: white; border-radius: 5px; overflow: hidden;">
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Plain Rice</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">30</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">50</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Jeera Rice</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">40</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Masala Rice</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">50</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">70</div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Lapeta</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+        </div>
+    </div>
 
-Bharat-Intern/README.md at main · BesthaTharun/Bharat-Intern · GitHub
+    <!-- Sabji Section -->
+    <div style="background-color: #d5f5e3; border: 3px solid #58d68d; border-radius: 10px; padding: 15px; margin-bottom: 25px;">
+        <h2 style="color: #0e6251; border-bottom: 2px solid #0e6251; padding-bottom: 8px; margin-top: 0;">SABJI</h2>
+        
+        <!-- Price header -->
+        <div style="display: flex; background-color: #2ecc71; color: white; border-radius: 5px; margin-bottom: 10px;">
+            <div style="flex: 2; padding: 8px; font-weight: bold; text-align: left; padding-left: 15px;">ITEM</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">HALF</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">FULL</div>
+        </div>
+        
+        <!-- Sabji Items -->
+        <div style="background-color: white; border-radius: 5px; overflow: hidden;">
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Sev Masala</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Sev Bhaji</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">70</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">100</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Sev Tamatar</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tamatar Masala</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tamatar Chatni</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">70</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Khadi Pakoda</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">60</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">90</div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">khadi Tadka</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">70</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">100</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Roti Section -->
+    <div style="background-color: #e8daef; border: 3px solid #9b59b6; border-radius: 10px; padding: 15px; margin-bottom: 25px;">
+        <h2 style="color: #6c3480; border-bottom: 2px solid #6c3480; padding-bottom: 8px; margin-top: 0;">ROTI</h2>
+        
+        <!-- Price header -->
+        <div style="display: flex; background-color: #9b59b6; color: white; border-radius: 5px; margin-bottom: 10px;">
+            <div style="flex: 2; padding: 8px; font-weight: bold; text-align: left; padding-left: 15px;">ITEM</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">PRICE</div>
+
+        </div>
+        
+        <!-- Roti Items -->
+        <div style="background-color: white; border-radius: 5px; overflow: hidden;">
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tawa Roti</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">6</div>
+    
+            </div>
+           
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tawa Butter Roti</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">8</div>
+               
+            </div>
+           
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tandoori Roti</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">7</div>
+         
+            </div>
+           
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Tandoori Butter Roti</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">8</div>
+                
+            </div>
+           
+            <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; font-weight: bold;">Lachha Paratha</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">25</div>
+                
+            </div>
+           
+        </div>
+    </div>
+     <!-- Other Section -->
+    <div style="background-color: #76cfed; border: 3px solid #18a1b0; border-radius: 10px; padding: 15px; margin-bottom: 25px;">
+        <h2 style="color: #148f8f; border-bottom: 2px solid #1390a1; padding-bottom: 8px; margin-top: 0;">OTHER</h2>
+        
+        <!-- Price header -->
+        <div style="display: flex; background-color: #158b7d; color: white; border-radius: 5px; margin-bottom: 10px;">
+            <div style="flex: 2; padding: 8px; font-weight: bold; text-align: left; padding-left: 15px;">ITEM</div>
+            <div style="flex: 1; padding: 8px; font-weight: bold; text-align: center; border-left: 1px solid white;">PRICE</div>
+
+        </div>
+        <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; padding-left: 30px;">Papad Dry</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;"></div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">20</div>
+            </div>
+             <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; padding-left: 30px;">Papad Masala</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;"></div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">30</div>
+            </div>
+             <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; padding-left: 30px;">Bati</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;"></div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">10</div>
+            </div>
+             <div style="display: flex; border-bottom: 1px solid #eee;">
+                <div style="flex: 2; padding: 10px; padding-left: 30px;">Dahi</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">30</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">50</div>
+            </div>
+             <div style="display: flex;">
+                <div style="flex: 2; padding: 10px; padding-left: 30px;">Water Bottle</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">10</div>
+                <div style="flex: 1; padding: 10px; text-align: center; border-left: 1px solid #eee;">20</div>
+            </div>
+     </div>
+    <!-- Footer -->
+    <div style="text-align: center; font-size: 20px; color: #e74c3c; font-weight: bold; margin-top: 30px; padding: 15px; background-color: #ffebee; border-radius: 10px; border: 2px solid #ef9a9a;">
+        YOU'RE THE BEST! THANKS FOR VISITING.
+    </div>
+
+</body>
+</html>
+ 
+            
+        
